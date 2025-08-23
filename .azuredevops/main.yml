@@ -1,0 +1,36 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pr: none
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  BuildConfiguration: 'Release'
+  UseSemanticRelease: 'true'
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: ErikLieben.FA/build-templates
+    - repository: self
+      type: github
+      name: eriklieben/ErikLieben.FA.Specifications
+      endpoint: github.com_eriklieben
+
+extends:
+    template: NuGet/main_template.yaml@templates
+    parameters:
+      repositoryName: 'eriklieben/ErikLieben.FA.Specifications'
+      solutionPath: 'ErikLieben.FA.Specifications.sln'
+      sonarCloudProjectKey: 'eriklieben_ErikLieben.FA.Specifications'
+      buildConfiguration: '$(BuildConfiguration)'
+      useSemanticRelease: true
+      packageProjects:
+        - displayName: 'library'
+          path: 'src/ErikLieben.FA.Specifications/ErikLieben.FA.Specifications.csproj'
+

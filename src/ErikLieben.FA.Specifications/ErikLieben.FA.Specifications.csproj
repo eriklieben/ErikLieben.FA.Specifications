@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DebugType>portable</DebugType>
+
+        <!-- NuGet package metadata -->
+        <PackageId>ErikLieben.FA.Specifications</PackageId>
+        <PackageVersion Condition="'$(PackageVersion)' == '' and '$(Version)' != ''">$(Version)</PackageVersion>
+        <Title>ErikLieben.FA.Specifications</Title>
+        <Authors>Erik Lieben</Authors>
+        <Company>Erik Lieben</Company>
+        <Description>Lightweight, AOT-friendly Specification pattern for clear, reusable domain rules</Description>
+        <PackageTags>specification;domain;dotnet;csharp</PackageTags>
+        <RepositoryUrl>https://github.com/eriklieben/ErikLieben.FA.Specifications</RepositoryUrl>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+        <!-- Symbol package settings -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\\..\\README.md" Pack="true" PackagePath="" />
+        <None Include="..\\..\\LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
