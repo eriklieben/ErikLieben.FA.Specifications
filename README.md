@@ -1,8 +1,17 @@
 # ErikLieben.FA.Specifications
 
 [![NuGet](https://img.shields.io/nuget/v/ErikLieben.FA.Specifications?style=flat-square)](https://www.nuget.org/packages/ErikLieben.FA.Specifications)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Changelog](https://img.shields.io/badge/Changelog-docs-informational?style=flat-square)](docs/CHANGELOG.md)
 [![.NET 9.0](https://img.shields.io/badge/.NET-9.0-blue?style=flat-square)](https://dotnet.microsoft.com/download/dotnet/9.0)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
+[![Known Vulnerabilities](https://snyk.io/test/github/eriklieben/ErikLieben.FA.Specifications/badge.svg)](https://snyk.io/test/github/eriklieben/ErikLieben.FA.Specifications)
+
 
 > **Lightweight, AOT-friendly Specification pattern for clear, reusable domain rules — integrates seamlessly with ErikLieben.FA.Results and Validations.**
 
@@ -453,8 +462,8 @@ var eligibleUserSpecification = new AdultAgeSpecification()
 
 ## 🔗 Related Libraries
 
-- **[ErikLieben.FA.Results](../ErikLieben.FA.Results/README.md)** - Core Result types and operations
-- **[ErikLieben.FA.Results.Validations](../ErikLieben.FA.Results.Validations/README.md)** - Advanced validation flows with error aggregation
+- **[ErikLieben.FA.Results](https://github.com/eriklieben/ErikLieben.FA.Results)** - Core Result types and operations
+- **[ErikLieben.FA.Results.Validations](https://github.com/eriklieben/ErikLieben.FA.Results)** - Advanced validation flows with error aggregation
 
 ## 📄 License
 
