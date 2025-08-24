@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.2...v1.0.3) (2025-08-24)
+
+### 🐛 Bug fixes
+
+* add version tags to csproj ([1b368b4](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/1b368b48584a949150a49b307b30e33fdb801705))
+
 ## [1.0.2](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.1...v1.0.2) (2025-08-24)
 
 ### 📚 Documentation
