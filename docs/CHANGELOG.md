@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.4...v1.0.5) (2025-09-13)
+
+### ⬆️ Dependency updates
+
+* **deps:** Update dependency Microsoft.NET.Test.Sdk to 17.14.1 ([#4](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/4)) ([6346e3a](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/6346e3acdbac43bd25c3cc95b5e6a83086bb44b0))
+
 ## [1.0.4](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.3...v1.0.4) (2025-08-25)
 
 ## [1.0.3](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.2...v1.0.3) (2025-08-24)
