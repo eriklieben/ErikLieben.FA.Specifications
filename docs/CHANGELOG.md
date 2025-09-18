@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.5...v1.0.6) (2025-09-18)
+
+### ⬆️ Dependency updates
+
+* **deps:** Update dependency @semantic-release/release-notes-generator to 14.1.0 ([#7](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/7)) ([cae590b](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/cae590bbde164c95b7a812e7db72f94ca7ad7f10))
+* **deps:** Update dependency dotnet-sdk to 9.0.305 ([#6](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/6)) ([0f70f94](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/0f70f9467f5a255888474cdff75df511e394b034))
+* **deps:** Update dependency xunit.runner.visualstudio to v3 ([#5](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/5)) ([59864d8](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/59864d83de8d5519d55210082c580f3292b83aa8))
+
 ## [1.0.5](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.4...v1.0.5) (2025-09-13)
 
 ### ⬆️ Dependency updates
