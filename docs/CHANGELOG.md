@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.6...v1.0.7) (2025-10-27)
+
+### ⬆️ Dependency updates
+
+* **deps:** Update dependency dotnet-sdk to 9.0.306 ([#10](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/10)) ([3e453a0](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/3e453a0e8dc14cfeac53841c848343b751861a97))
+* **deps:** Update dependency Microsoft.NET.Test.Sdk to v18 ([#9](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/9)) ([320d9aa](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/320d9aae51c4b6bfe03b334a7f532f0d6ced7bae))
+* **deps:** Update dependency xunit.runner.visualstudio to 3.1.5 ([#8](https://github.com/eriklieben/ErikLieben.FA.Specifications/issues/8)) ([4faaee1](https://github.com/eriklieben/ErikLieben.FA.Specifications/commit/4faaee118a0e8f5d32290104e470f3d6a8765122))
+
 ## [1.0.6](https://github.com/eriklieben/ErikLieben.FA.Specifications/compare/v1.0.5...v1.0.6) (2025-09-18)
 
 ### ⬆️ Dependency updates
