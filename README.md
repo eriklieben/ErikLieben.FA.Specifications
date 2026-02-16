@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/ErikLieben.FA.Specifications?style=flat-square)](https://www.nuget.org/packages/ErikLieben.FA.Specifications)
 [![Changelog](https://img.shields.io/badge/Changelog-docs-informational?style=flat-square)](docs/CHANGELOG.md)
-[![.NET 9.0](https://img.shields.io/badge/.NET-9.0-blue?style=flat-square)](https://dotnet.microsoft.com/download/dotnet/9.0)
+[![.NET 8.0 | 9.0 | 10.0](https://img.shields.io/badge/.NET-8.0%20%7C%209.0%20%7C%2010.0-blue?style=flat-square)](https://dotnet.microsoft.com)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
@@ -56,7 +56,7 @@ dotnet add package ErikLieben.FA.Results
 dotnet add package ErikLieben.FA.Results.Validations
 ```
 
-**Requirements:** .NET 9.0+
+**Requirements:** .NET 8.0+
 
 ## ⚡ Quick Start
 
