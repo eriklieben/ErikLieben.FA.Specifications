@@ -1,7 +1,7 @@
 # ErikLieben.FA.Specifications
 
 [![NuGet](https://img.shields.io/nuget/v/ErikLieben.FA.Specifications?style=flat-square)](https://www.nuget.org/packages/ErikLieben.FA.Specifications)
-[![Changelog](https://img.shields.io/badge/Changelog-docs-informational?style=flat-square)](docs/CHANGELOG.md)
+[![Changelog](https://img.shields.io/badge/Changelog-releases-informational?style=flat-square)](https://github.com/eriklieben/ErikLieben.FA.Specifications/releases)
 [![.NET 8.0 | 9.0 | 10.0](https://img.shields.io/badge/.NET-8.0%20%7C%209.0%20%7C%2010.0-blue?style=flat-square)](https://dotnet.microsoft.com)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
@@ -11,7 +11,7 @@
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=eriklieben_ErikLieben.FA.Specifications&metric=coverage)](https://sonarcloud.io/summary/new_code?id=eriklieben_ErikLieben.FA.Specifications)
 [![Known Vulnerabilities](https://snyk.io/test/github/eriklieben/ErikLieben.FA.Specifications/badge.svg)](https://snyk.io/test/github/eriklieben/ErikLieben.FA.Specifications)
-
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/eriklieben/ErikLieben.FA.Specifications/badge)](https://scorecard.dev/viewer/?uri=github.com/eriklieben/ErikLieben.FA.Specifications)
 
 > **Lightweight, AOT-friendly Specification pattern for clear, reusable domain rules — integrates seamlessly with ErikLieben.FA.Results and Validations.**
 
