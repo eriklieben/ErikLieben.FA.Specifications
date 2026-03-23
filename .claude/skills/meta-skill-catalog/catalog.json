@@ -1,0 +1,362 @@
+[
+  {
+    "name": "dev-blueprint",
+    "category": "dev",
+    "description": "Turn a one-line objective into a step-by-step construction plan for",
+    "path": ".claude/skills/dev-blueprint/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-commit",
+    "category": "dev",
+    "description": "Write conventional commit messages following the Angular/Conventional Commits specification.",
+    "path": ".claude/skills/dev-commit/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-dependency",
+    "category": "dev",
+    "description": "Audit and update project dependencies. Auto-detects package managers (NuGet, npm)",
+    "path": ".claude/skills/dev-dependency/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-dependency-backend",
+    "category": "dev",
+    "description": "Audit and update NuGet packages for C#/.NET projects. Detects outdated packages,",
+    "path": ".claude/skills/dev-dependency-backend/",
+    "version": "1.2.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.2.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-dotnet-build",
+    "category": "dev",
+    "description": "MSBuild diagnosis and optimization for .NET projects. Covers binlog analysis,",
+    "path": ".claude/skills/dev-dotnet-build/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-dotnet-migrate",
+    "category": "dev",
+    "description": ".NET version migration assistant. Guides migration between .NET versions (8\u21929, 9\u219210, 10\u219211),",
+    "path": ".claude/skills/dev-dotnet-migrate/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-iterative-retrieval",
+    "category": "dev",
+    "description": "Pattern for progressively refining context retrieval in multi-agent workflows.",
+    "path": ".claude/skills/dev-iterative-retrieval/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-perf",
+    "category": "dev",
+    "description": "Performance profiling via Aspire traces",
+    "path": ".claude/skills/dev-perf/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-search-first",
+    "category": "dev",
+    "description": "Research-before-coding workflow. Search for existing tools, packages, and",
+    "path": ".claude/skills/dev-search-first/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-security",
+    "category": "dev",
+    "description": "Security review aligned with OWASP Top 10:2025. Auto-detects backend (.NET)",
+    "path": ".claude/skills/dev-security/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-security-backend",
+    "category": "dev",
+    "description": "Security checklist for C#/.NET backend (ASP.NET Core, EF Core, Event Sourcing).",
+    "path": ".claude/skills/dev-security-backend/",
+    "version": "1.2.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.2.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-tdd",
+    "category": "dev",
+    "description": "Test-driven development workflow. Auto-detects backend (.NET) and frontend",
+    "path": ".claude/skills/dev-tdd/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-tdd-backend",
+    "category": "dev",
+    "description": "Test-driven development workflow for C#/.NET using xUnit, NSubstitute,",
+    "path": ".claude/skills/dev-tdd-backend/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-verification-backend",
+    "category": "dev",
+    "description": "Post-change verification for C#/.NET backend code \u2014 build, Roslyn analyzers,",
+    "path": ".claude/skills/dev-verification-backend/",
+    "version": "1.2.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.2.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "dev-verify",
+    "category": "dev",
+    "description": "Post-change verification for the project. Auto-detects backend (.NET) and frontend",
+    "path": ".claude/skills/dev-verify/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-adr",
+    "category": "doc",
+    "description": "Generate an Architecture Decision Record from template (MADR format). Use when the user",
+    "path": ".claude/skills/doc-adr/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-design",
+    "category": "doc",
+    "description": "Generate a Design Document from template. Use when the user says \"write a design doc\",",
+    "path": ".claude/skills/doc-design/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-init",
+    "category": "doc",
+    "description": "Bootstrap documentation for an existing codebase by analyzing code, git history,",
+    "path": ".claude/skills/doc-init/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-postmortem",
+    "category": "doc",
+    "description": "Generate a blameless post-mortem from template. Use when the user says \"write a post-mortem\",",
+    "path": ".claude/skills/doc-postmortem/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-prd",
+    "category": "doc",
+    "description": "Generate a Product Requirements Document from template. Use when the user says",
+    "path": ".claude/skills/doc-prd/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-rfc",
+    "category": "doc",
+    "description": "Generate a Request for Comments document from template. Use when the user says",
+    "path": ".claude/skills/doc-rfc/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-runbook",
+    "category": "doc",
+    "description": "Generate an operational runbook from template. Use when the user says \"write a runbook\",",
+    "path": ".claude/skills/doc-runbook/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "doc-spike",
+    "category": "doc",
+    "description": "Generate a spike/research report from template. Use when the user says \"write up the spike\",",
+    "path": ".claude/skills/doc-spike/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-adopt-skill",
+    "category": "meta",
+    "description": "Review and adopt an external skill into this workflow. Evaluates a skill",
+    "path": ".claude/skills/meta-adopt-skill/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-continuous-learning",
+    "category": "meta",
+    "description": "Analyze session patterns and extract reusable skills, rules, or conventions.",
+    "path": ".claude/skills/meta-continuous-learning/",
+    "version": "2.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "2.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-contribute-back",
+    "category": "meta",
+    "description": "Package universal skill learnings from a project and contribute them back to",
+    "path": ".claude/skills/meta-contribute-back/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-heartbeat",
+    "category": "meta",
+    "description": "Session startup ritual that loads context files, creates daily memory,",
+    "path": ".claude/skills/meta-heartbeat/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-merge-contributions",
+    "category": "meta",
+    "description": "Review and merge skill contribution branches into main. Lists pending",
+    "path": ".claude/skills/meta-merge-contributions/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-skill-catalog",
+    "category": "meta",
+    "description": "Maintains the skill catalog (catalog.json) with metadata about all installed",
+    "path": ".claude/skills/meta-skill-catalog/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-upgrade",
+    "category": "meta",
+    "description": "Upgrade installed workflow skills and templates from the agentic-workflow repo.",
+    "path": ".claude/skills/meta-upgrade/",
+    "version": "2.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "2.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "meta-wrap-up",
+    "category": "meta",
+    "description": "End-of-session checklist that reviews deliverables, updates daily memory,",
+    "path": ".claude/skills/meta-wrap-up/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "tool-agentsandbox-merge",
+    "category": "tool",
+    "description": "Merge agentsandbox session work back into the current branch. Reviews changes made",
+    "path": ".claude/skills/tool-agentsandbox-merge/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "tool-ux-study",
+    "category": "tool",
+    "description": "Run a think-aloud usability study with AI testers and UX research facilitation",
+    "path": ".claude/skills/tool-ux-study/",
+    "version": "1.1.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.1.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "tool-vitepress",
+    "category": "tool",
+    "description": "Set up and manage VitePress documentation site with Mermaid diagram support.",
+    "path": ".claude/skills/tool-vitepress/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "tool-worktree",
+    "category": "tool",
+    "description": "Manage git bare + worktree repositories",
+    "path": ".claude/skills/tool-worktree/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  },
+  {
+    "name": "viz-c4-diagram",
+    "category": "viz",
+    "description": "Generate C4 architecture diagrams using Mermaid syntax. Use when the user says",
+    "path": ".claude/skills/viz-c4-diagram/",
+    "version": "1.0.0",
+    "installed_from": "agentic-workflow",
+    "installed_version": "1.0.0",
+    "installed_date": "2026-03-23"
+  }
+]

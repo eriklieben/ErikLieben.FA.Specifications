@@ -91,3 +91,9 @@ node_modules
 # CI artifacts
 release-artifacts/
 coverage/
+
+# Workflow context (personal, don't share)
+context/USER.md
+context/MEMORY.md
+context/memory/
+CLAUDE.local.md

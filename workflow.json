@@ -1,0 +1,21 @@
+{
+  "docsRepo": "ErikLieben.FA.Specifications.docs",
+  "workflowRepo": "agentic-dev-workflow",
+  "project": {
+    "name": "ErikLieben.FA.Specifications",
+    "type": "library"
+  },
+  "docs": {
+    "templates": "templates",
+    "output": {
+      "adr": "adr",
+      "rfc": "rfc",
+      "design": "design",
+      "prd": "prd",
+      "runbook": "runbooks",
+      "postmortem": "postmortems",
+      "spike": "spikes",
+      "architecture": "architecture"
+    }
+  }
+}
