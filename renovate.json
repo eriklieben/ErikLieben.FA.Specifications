@@ -8,6 +8,20 @@
       "extends": [
         "github>eriklieben/renovate//dotnet9.json"
       ]
+    },
+    {
+      "description": "Schedule GitHub Actions updates (including major versions)",
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["major", "minor", "patch", "digest"],
+      "schedule": ["at any time"],
+      "enabled": true
+    },
+    {
+      "description": "Schedule npm dev dependency updates",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "schedule": ["at any time"],
+      "enabled": true
     }
   ]
 }
